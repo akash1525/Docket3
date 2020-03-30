@@ -1,0 +1,21 @@
+//
+// Features.scss
+//
+.feature {
+    .icon {
+        font-size: 40px;
+        .icon-shape {
+            position: absolute;
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+            z-index: -1;
+        }
+    }
+    .title {
+        transition: all 0.5s ease;
+        &:hover {
+            color: $primary !important;
+        }
+    }
+}
